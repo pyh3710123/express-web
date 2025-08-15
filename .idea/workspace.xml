@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fa5dbfc-853b-4f5b-a206-dcd3ec186629" name="更改" comment="" />
+    <list default="true" id="7fa5dbfc-853b-4f5b-a206-dcd3ec186629" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/statusCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/Section.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/Section.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +40,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,6 +60,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/personal-express",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -53,6 +80,19 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\personal-express" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\personal-express\web\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,11 +102,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755224664956</updated>
-      <workItem from="1755224666022" duration="7959000" />
+      <workItem from="1755224666022" duration="22423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
 </project>

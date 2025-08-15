@@ -1,12 +1,20 @@
 <script setup>
 import { ref } from 'vue'
-
+import http from "../api/index.js";
 defineProps({
 
 })
 
 const count = ref(0)
-
+const onsubmit = () =>{
+  console.log(111)
+  const res = http.post('user/register',{
+    username:'zhsdsdww',
+    email:"359328740@qq.com",
+    password:'make52013'
+  })
+  console.log(res,'xxx')
+}
 </script>
 
 <template>
@@ -20,7 +28,7 @@ const count = ref(0)
           <span>密码</span>
           <div><input type="password"></div>
         </div>
-        <div class="submit">登录</div>
+        <div class="submit" @click="onsubmit()">登录</div>
       </div>
   </div>
 </template>
